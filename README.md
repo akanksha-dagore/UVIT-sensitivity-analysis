@@ -90,7 +90,6 @@ The script performs aperture photometry on each of the episode images. It create
 The script cross-matches the source coordinates in the reference image with the source coordinates in every episode image to identify the coordinates of the selected three candidates across all the NGC188 episode images. It creates a directory `~/cross_coord_match/` and saves the output separately in sub-directories for each observation ID. The following output is generated for every episode image:
     - a .csv file containing the x and y centroids for the candidates along with the source flux and measured error in CPS units, as represented by the columns, ‘x_center_source’, ‘y_center_source’, ‘source_cps’ and ‘source_err_cps’ respectively). The information is stored in the .csv file in the sequence corresponding to candidates 1, 2, and 3 respectively.<br>
     $\textbf{Note:}$ This script was only used for the NGC188 data. Unlike the crowded NGC188 field, coordinate cross-matching was unnecessary for the HZ4 data since the source was isolated. <br>
-<br>
 
 
 ### Sensitivity analysis:
